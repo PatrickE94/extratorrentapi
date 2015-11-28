@@ -2,7 +2,7 @@
   "name": "extratorrentapi",
   "version": "1.0.0",
   "description": "Volatile wrapper around extratorrent.cc ",
-  "main": "extratorrents.js",
+  "main": "extratorrent.js",
   "scripts": {
     "test": "mocha"
   },
