@@ -18,6 +18,7 @@
         leechs: parseInt($r('leechers').text()),
         peers: parseInt($r('seeders').text()) + parseInt($r('leechers').text()),
         size: parseInt($r('size').text()),
+        url: $r('link').text(),
         magnetLink: magnet.encode({
             name: $r('title').text(),
             infoHash: $r('hash_info').text(),
