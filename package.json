@@ -1,6 +1,6 @@
 {
   "name": "extratorrentapi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Volatile wrapper around extratorrent.cc ",
   "main": "extratorrent.js",
   "scripts": {
