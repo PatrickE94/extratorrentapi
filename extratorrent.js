@@ -21,7 +21,7 @@
         url: $r('link').text(),
         magnetLink: magnet.encode({
             name: $r('title').text(),
-            infoHash: $r('hash_info').text(),
+            infoHash: $r('info_hash').text(),
             announce: [ // Adding a list of public trackers, that's what
                         // extratorrent.cc does, except we have more
               'udp://tracker.openbittorrent.com:80',
